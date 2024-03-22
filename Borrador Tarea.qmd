@@ -22,6 +22,8 @@ ggplot(data = chickwts) + theme_bw() + aes(x = feed, y = weight, color = feed) +
 
 ### Figura agregada desde un archivo
 
+En esta sección se muestra una foto del gato más lindo de todos, y su amiga perruna. 
+
 ![](fotopampa.jpg)
 
 ### Marcado de texto y escritura matemática
@@ -39,7 +41,15 @@ A continuación se muestra la lista de materias optativas de la Lic. en Estadís
 2. Métodos Estadísticos Aplicados a la Industria
 3. Econometría
 
-### Tablas
+### Tabla creada con sintaxis Markdown
+
+Variable|Percentil del 5%|Media|Percentil del 95%|Desvío|
+:---:|:-------: |:-------:|:-------:|:-------: 
+X |-4.5955|0.1391|4.6110|2.9252 
+Y |-2.3205|6.0824|20.9370|7.262141
+
+### Tabla creada con código de R.
+
 
 ```{r}
 #| echo: false
