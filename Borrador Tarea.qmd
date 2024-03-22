@@ -1,0 +1,47 @@
+---
+title: "Tarea 1"
+author: "Josefina Suárez"
+format: gfm
+---
+
+# Tarea 1
+
+Josefina Suárez 22/03/24
+
+### Figura creada con código visible
+
+```{r}
+library(ggplot2)
+ggplot(data = chickwts) + theme_bw() + aes(x = feed, y = weight, color = feed) +
+  geom_point(size = 1.9) + 
+  theme(legend.position = "none") + 
+  labs(x="Suplemento alimenticio", y="Peso (en gramos)",
+       title = "Peso de los polluelos luego de las seis según tratamiento")
+  
+```
+
+### Figura agregada desde un archivo
+
+![](C:/Users/josef/OneDrive/Documentos\GitProjects\tutorial_git_josefina\fotopampa.jpg)
+
+### Marcado de texto y escritura matemática
+
+La Tarea 1 de PAI debe estar entregada *antes* de las **11:00 del martes 26 de marzo**.
+
+También se muestra escritura matemática en línea, $\sigma \sim Beta(a=3, b=2)$, y fuera de línea:
+$$\sigma \sim Beta(a=3, b=2)$$
+
+### Listas
+
+A continuación se muestra la lista de materias optativas de la Lic. en Estadística de la UNR que se dictan en el primer cuatrimestre de 5to año:
+
+1. Bioestadística
+2. Métodos Estadísticos Aplicados a la Industria
+3. Econometría
+
+### Tablas
+
+```{r}
+#| echo: false
+2 * 2
+```
