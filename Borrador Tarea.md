@@ -20,7 +20,7 @@ ggplot(data = chickwts) + theme_bw() + aes(x = feed, y = weight, color = feed) +
 
 ### Figura agregada desde un archivo
 
-![](C:/Users/josef/OneDrive/Documentos\GitProjects\tutorial_git_josefina\fotopampa.jpg)
+![](fotopampa.jpg)
 
 ### Marcado de texto y escritura matemática
 
