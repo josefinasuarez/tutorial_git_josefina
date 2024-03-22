@@ -11,7 +11,7 @@ ggplot(data = chickwts) + theme_bw() + aes(x = feed, y = weight, color = feed) +
   geom_point(size = 1.9) + 
   theme(legend.position = "none") + 
   labs(x="Suplemento alimenticio", y="Peso (en gramos)",
-       title = "Peso de los polluelos luego de las seis según tratamiento")
+       title = "Peso de los polluelos luego de las seis semanas según tratamiento")
 ```
 
 ![](Borrador-Tarea_files/figure-commonmark/unnamed-chunk-1-1.png)
@@ -50,4 +50,13 @@ año:
 
 ### Tabla creada con código de R.
 
-    [1] 4
+Se muestra una tabla creada con código de R, el cual está oculto.
+
+| feed      |     mean |
+|:----------|---------:|
+| casein    | 323.5833 |
+| horsebean | 160.2000 |
+| linseed   | 218.7500 |
+| meatmeal  | 276.9091 |
+| soybean   | 246.4286 |
+| sunflower | 328.9167 |

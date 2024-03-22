@@ -14,7 +14,7 @@ ggplot(data = chickwts) + theme_bw() + aes(x = feed, y = weight, color = feed) +
   geom_point(size = 1.9) + 
   theme(legend.position = "none") + 
   labs(x="Suplemento alimenticio", y="Peso (en gramos)",
-       title = "Peso de los polluelos luego de las seis según tratamiento")
+       title = "Peso de los polluelos luego de las seis semanas según tratamiento")
   
 ```
 
@@ -48,7 +48,14 @@ Y |-2.3205|6.0824|20.9370|7.262141
 
 ### Tabla creada con código de R.
 
+Se muestra una tabla creada con código de R, el cual está oculto.
+
 ```{r}
 #| echo: false
-2 * 2
+#| warning: false
+#| message: false
+library(dplyr)
+chickwts_table <- chickwts %>% group_by(feed) %>% summarise(mean = mean(weight)) 
+knitr::kable(chickwts_table) 
 ```
+
