@@ -1,11 +1,9 @@
 # Tarea 1
-Josefina Suárez
-
-# Tarea 1
-
 Josefina Suárez 22/03/24
 
 ### Figura creada con código visible
+
+Se muestra una figura y el código de R utilizado para construirla.
 
 ``` r
 library(ggplot2)
@@ -20,8 +18,7 @@ ggplot(data = chickwts) + theme_bw() + aes(x = feed, y = weight, color = feed) +
 
 ### Figura agregada desde un archivo
 
-En esta sección se muestra una foto del gato más lindo de todos, y su
-amiga perruna.
+En esta sección se muestra un archivo de imagen externo.
 
 ![](fotopampa.jpg)
 
@@ -32,7 +29,7 @@ La Tarea 1 de PAI debe estar entregada *antes* de las **11:00 del martes
 
 También se muestra escritura matemática en línea,
 $\sigma \sim Beta(a=3, b=2)$, y fuera de línea:
-$$\sigma \sim Beta(a=3, b=2)$$
+$$X \sim Poisson(\lambda = 5)$$
 
 ### Listas
 
